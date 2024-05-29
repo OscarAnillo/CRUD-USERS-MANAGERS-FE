@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.app {
+  text-align: center;
+}
+img {
+  width: 100%;
+}
+.div-slide {
+  text-align: center;
+}
+
+/* Contact Manager */
+.map-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.5em auto;
+  width: 400px;
+}
+
+/* Books Stall */
+.map-div-books {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.5em auto;
+  width: 400px;
+}
+
+/* Users-Manager */
+.add-user {
+  background-color: coral;
+  padding: 0.5em 0;
+}
+.add-user a {
+  color: #fff;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.form {
+  border: 1px solid #eee;
+  margin: 1em auto;
+  padding: 1em;
+  text-align: left;
+  width: 450px;
+}
+.form label {
+  color: red;
+}
+.form input {
+  border: none;
+  border-bottom: 1px solid #000;
+  margin: 0.5em 0;
+  padding: 0.5em 0 0.5em 0.5em;
+  width: 100%;
+}
+.form input::placeholder {
+  color: #cac9c9;
+}
+.form button {
+  background-color: transparent;
+  border: none;
+  margin-right: 0.5em;
+  padding: 0.5em 1em;
+}
+.form .submit {
+  border: 1px solid blue;
+  border-radius: 5px;
+  color: blue;
+}
+.form .cancel {
+  border: 1px solid red;
+  border-radius: 5px;
+}
+.form .cancel a {
+  color: red;
+  text-decoration: none;
+}
